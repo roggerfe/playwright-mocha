@@ -11,9 +11,9 @@ There is 3 playwright scripts in this repository:
 
 * `./playwright_ex_01.js` - Sample code from github that runs in 3 different browsers, goes to an URL and takes a screenshot
 
-* ./playwright_ex_02.js - Script that goes to http://todomvc.com/examples/react/#/ and tries to add a new TO DO item, this script fails because it immediately tries to type in the input element, we need to wait the DOM loads the input element
+* `./playwright_ex_02.js` - Script that goes to http://todomvc.com/examples/react/#/ and tries to add a new TO DO item, this script fails because it immediately tries to type in the input element, we need to wait the DOM loads the input element
 
-* ./playwright_ex_03.js - Do the same as script `playwright_ex_02.js` but it is fixed so the script waits element to be rendered in the DOM
+* `./playwright_ex_03.js` - Do the same as script `playwright_ex_02.js` but it is fixed so the script waits element to be rendered in the DOM
 
 In order to execute any of the scripts, simply run:
 
